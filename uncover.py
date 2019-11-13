@@ -127,11 +127,12 @@ def uncover_admins():
                 R
                 + f'{usr_list[i]["user"]} '
                 + N
-                + (17 - len(usr_list[i]["user"])) * " ",
+                + (20 - len(usr_list[i]["user"])) * " ",
                 f'({usr_sex(usr_list[i]["user_sex"])}) '
                 f'{usr_priv(usr_list[i]["user_priv"])}/'
                 f'{usr_level(usr_list[i]["user_level"])} '
                 + (7 - len(usr_level(usr_list[i]["user_level"]))) * " ",
+                Y + "Zum Profil:" + N,
                 f'{visibility(usr_list[i]["user_simg"])}',
                 "/".join([profile_url, usr_list[i]["user_id"]])
             )
@@ -144,12 +145,13 @@ def uncover_admins():
                 G
                 + f'{usr_list[i]["user"]} '
                 + N
-                + (17 - len(usr_list[i]["user"])) * " ",
+                + (20 - len(usr_list[i]["user"])) * " ",
                 f'({usr_sex(usr_list[i]["user_sex"])}) '
                 f'{usr_priv(usr_list[i]["user_priv"])}/'
                 f'{usr_level(usr_list[i]["user_level"])} '
                 + (7 - len(usr_level(usr_list[i]["user_level"]))) * " ",
                 f'{visibility(usr_list[i]["user_simg"])}',
+                Y + "Zum Profil:" + N,
                 "/".join([profile_url, usr_list[i]["user_id"]])
             )
             # prints the complete json array for each mod
@@ -170,11 +172,12 @@ def uncover_users():
                 C
                 + f'{usr_list[i]["user"]} '
                 + N
-                + (17 - len(usr_list[i]["user"])) * " ",
+                + (20 - len(usr_list[i]["user"])) * " ",
                 f'({usr_sex(usr_list[i]["user_sex"])}) '
                 f'{usr_level(usr_list[i]["user_level"])} '
                 + (15 - len(usr_level(usr_list[i]["user_level"]))) * " ",
-                f'{visibility(usr_list[i]["user_simg"])}'
+                f'{visibility(usr_list[i]["user_simg"])}',
+                Y + "Zum Profil:" + N,
                 f'{profile_url}/{usr_list[i]["user_id"]}',
             )
             # prints the complete json array for each user
@@ -194,7 +197,7 @@ def loop():
         + Y + " Strg"
         + N + "+"
         + Y + "C "
-        + N + " zum beenden.\n"
+        + N + " um zu beenden.\n"
     )
 
     if selection == "":
