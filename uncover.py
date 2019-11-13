@@ -19,7 +19,6 @@ R = "\033[31m"  # red
 G = "\033[32m"  # green
 Y = "\033[33m"  # yellow
 B = "\033[34m"  # blue
-P = "\033[35m"  # purple
 C = "\033[36m"  # cyan
 
 
@@ -190,11 +189,11 @@ def loop():
     """
     selection = input(
         "\n\n\nDrücken Sie "
-        + P + "Enter"
+        + Y + " Enter "
         + N + " zum Aktualisieren oder "
-        + P + "Strg"
+        + Y + " Strg"
         + N + "+"
-        + P + "C"
+        + Y + "C "
         + N + " zum beenden.\n"
     )
 
