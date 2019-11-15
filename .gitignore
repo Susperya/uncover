@@ -3,5 +3,6 @@
 /build
 /dist
 
-session_id.txt
-bomb.ico
+*.txt
+*.ico
+*.png
