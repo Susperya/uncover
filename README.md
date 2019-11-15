@@ -4,7 +4,7 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![License: MIT](https://img.shields.io/badge/license-the_unlicense-darkviolet.svg)](https://github.com/Susperya/uncover/blob/master/LICENSE)
 
-#### *A simple terminal app that reveals hidden users, mods and admins currently online at [Chatroom2000.de](https://chatroom2000.de), one of the biggest and most famous chat communities in Germany.*
+#### *A simple terminal app that reveals hidden users, mods and admins currently online at [Chatroom2000](https://chatroom2000.de), one of the biggest and most famous chat communities in Germany.*
 
 [![screen][0]][0]
 
@@ -12,11 +12,11 @@
 
 ## Installation
 
-Clone or download the repository to your computer and unzip the archive if needed. Navigate to the downloaded folder and create an empty simple text file named `session_id.txt` inside it.
+Clone or download the repository to your computer and unzip the archive if needed. Navigate to the downloaded folder and create an empty simple text file named **session_id.txt** inside it.
 
 ## Requirements
 
-The next step is to get the value for `PHPSESSID` from your browsers cookie. For this open your browser and log into your account (registered user!) on 
+The next step is to get the value for **PHPSESSID** from your browsers cookie. For this open your browser and log into your account *(registered user!)* on 
 [Chatroom2000](https://chatroom2000.de). 
 
 When logged in go to **Developer tools** and open the **Web console**. 
